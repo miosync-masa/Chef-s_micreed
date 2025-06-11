@@ -3,6 +3,7 @@ import os
 import requests
 from datetime import datetime
 import openai
+from dotenv import load_dotenv
 
 
 # ---- 環境変数の読み込み ----
