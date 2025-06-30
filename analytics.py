@@ -1,9 +1,11 @@
-import streamlit as st
-import pandas as pd
 import os
 import requests
-from datetime import datetime
 import openai
+import streamlit as st
+import pandas as pd
+from dotenv import load_dotenv
+from datetime import datetime
+
 
 # ---- 環境変数の読み込み ----
 load_dotenv()
